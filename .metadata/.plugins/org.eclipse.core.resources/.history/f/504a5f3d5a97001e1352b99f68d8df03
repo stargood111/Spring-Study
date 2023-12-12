@@ -1,0 +1,9 @@
+package hello.core.test;
+
+import hello.core.discount.RateDiscountPolicy;
+
+public class RateDiscountPolicyTest {
+
+	
+	RateDiscountPolicy discountPolicy = new RateDiscountPolicy();
+}

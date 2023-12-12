@@ -1,0 +1,24 @@
+package hello.core.member;
+
+public class MemberServicelmpl implements MemberService{
+
+	private final MemberRepository memberRepository 
+	
+	
+	
+	public MemberServicelmpl(MemoryMemberRepository memoryMemberRepository) {
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public void join(Member member) {
+		memberRepository.save(member);
+	}
+
+	@Override
+	public Member findMember(Long MemberId) {
+		// TODO Auto-generated method stub
+		return memberRepository.findById(MemberId);
+	}
+
+}

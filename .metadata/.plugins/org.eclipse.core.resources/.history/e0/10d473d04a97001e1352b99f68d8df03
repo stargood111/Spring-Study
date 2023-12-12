@@ -1,0 +1,10 @@
+package hello.core.order;
+
+public class OrderApp {
+
+	public static void mian(String[] args) {
+		MemberService memberService = new MeberServiceImpl();
+		OrderService orderService = new OrderServiceImpl();
+		
+	}
+}

@@ -1,0 +1,19 @@
+package hello.core.member;
+
+public class MemberServicelml implements MemberService{
+
+	private final MemberRepository memberRepository = new MemoryMemberRepository();
+	
+	@Override
+	public void join(Member member) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public Member findMember(Long MemberId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

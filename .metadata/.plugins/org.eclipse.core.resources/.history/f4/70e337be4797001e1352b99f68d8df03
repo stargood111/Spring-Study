@@ -1,0 +1,6 @@
+package hello.core.discount;
+
+public class DiscountPolicy {
+
+	int discount(Member member, int pirce);
+}
