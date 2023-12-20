@@ -1,9 +1,0 @@
-package hello.core.order;
-
-import hello.core.member.MemberService;
-
-public class OrderServiceTest {
-
-	MemberService = new MemberserviceImpl();
-	
-}

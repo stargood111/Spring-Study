@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="ApplicationContextExtendsFindTest" project="core" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="hello.core.beanfind.ApplicationContextExtendsFindTest" time="0.037" displayname="ApplicationContextExtendsFindTest" uniqueid="[engine:junit-jupiter]/[class:hello.core.beanfind.ApplicationContextExtendsFindTest]">
+    <testcase name="findBeanByParentTypeDuplicate" classname="hello.core.beanfind.ApplicationContextExtendsFindTest" time="0.037" displayname="부모 타입으로 조회시, 자식이 둘 이상 있으면, 중복 오류가 발생" uniqueid="[engine:junit-jupiter]/[class:hello.core.beanfind.ApplicationContextExtendsFindTest]/[method:findBeanByParentTypeDuplicate()]"/>
+  </testsuite>
+</testrun>

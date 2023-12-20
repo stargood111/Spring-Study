@@ -1,8 +1,0 @@
-package hello.core.member;
-
-public enum Grade {
-	private String name;
-	private Grade grade;
-
-	
-}

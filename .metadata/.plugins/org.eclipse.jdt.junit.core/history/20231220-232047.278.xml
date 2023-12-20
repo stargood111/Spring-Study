@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="ApplicationContextExtendsFindTest" project="core" tests="2" started="2" failures="0" errors="1" ignored="0">
+  <testsuite name="hello.core.beanfind.ApplicationContextExtendsFindTest" time="0.151" displayname="ApplicationContextExtendsFindTest" uniqueid="[engine:junit-jupiter]/[class:hello.core.beanfind.ApplicationContextExtendsFindTest]">
+    <testcase name="findBeanByParentTypeDuplicate" classname="hello.core.beanfind.ApplicationContextExtendsFindTest" time="0.021" displayname="부모 타입으로 조회시, 자식이 둘 이상 있으면, 중복 오류가 발생" uniqueid="[engine:junit-jupiter]/[class:hello.core.beanfind.ApplicationContextExtendsFindTest]/[method:findBeanByParentTypeDuplicate()]"/>
+    <testcase name="findBeanByParentTypeBeanName" classname="hello.core.beanfind.ApplicationContextExtendsFindTest" time="0.017" displayname="부모 타입으로 조회시, 자식이 둘 이상 있으면, 중복 오류가 발생" uniqueid="[engine:junit-jupiter]/[class:hello.core.beanfind.ApplicationContextExtendsFindTest]/[method:findBeanByParentTypeBeanName()]">
+      <error>java.lang.Error: Unresolved compilation problem: 
+	Syntax error, insert ";" to complete Statement
+&#13;
+	at hello.core.beanfind.ApplicationContextExtendsFindTest.findBeanByParentTypeBeanName(ApplicationContextExtendsFindTest.java:34)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)&#13;
+&#13;
+</error>
+    </testcase>
+  </testsuite>
+</testrun>
