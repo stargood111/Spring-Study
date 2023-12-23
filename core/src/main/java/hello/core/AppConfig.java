@@ -29,7 +29,7 @@ public class AppConfig {
 		return new OrderServiceImpl(memoryMemberRepository(), discountpolicy());
 	}
 //	public DiscountPolicy discountpolicy() {
-//		return new FixDiscountPolicy();
+//		return new FixDiscountPolic,y();
 //	}
 	@Bean
 	public DiscountPolicy discountpolicy() {
