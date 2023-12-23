@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="ConfigurationSigletonTest" project="core" tests="2" started="2" failures="0" errors="1" ignored="0">
+  <testsuite name="hello.core.singleton.ConfigurationSigletonTest" time="0.748" displayname="ConfigurationSigletonTest" uniqueid="[engine:junit-jupiter]/[class:hello.core.singleton.ConfigurationSigletonTest]">
+    <testcase name="configurationSigletonTest" classname="hello.core.singleton.ConfigurationSigletonTest" time="0.028" displayname="configurationSigletonTest()" uniqueid="[engine:junit-jupiter]/[class:hello.core.singleton.ConfigurationSigletonTest]/[method:configurationSigletonTest()]">
+      <error>java.lang.Error: Unresolved compilation problems: 
+	ㄴ cannot be resolved to a type
+	Syntax error on token ".", ; expected
+	out cannot be resolved
+&#13;
+	at hello.core.singleton.ConfigurationSigletonTest.configurationSigletonTest(ConfigurationSigletonTest.java:25)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="configurationDepp" classname="hello.core.singleton.ConfigurationSigletonTest" time="0.719" displayname="configurationDepp()" uniqueid="[engine:junit-jupiter]/[class:hello.core.singleton.ConfigurationSigletonTest]/[method:configurationDepp()]"/>
+  </testsuite>
+</testrun>

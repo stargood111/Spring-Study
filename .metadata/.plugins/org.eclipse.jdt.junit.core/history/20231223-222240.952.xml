@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="ConfigurationSigletonTest" project="core" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="hello.core.singleton.ConfigurationSigletonTest" time="0.816" displayname="ConfigurationSigletonTest" uniqueid="[engine:junit-jupiter]/[class:hello.core.singleton.ConfigurationSigletonTest]">
+    <testcase name="configurationSigletonTest" classname="hello.core.singleton.ConfigurationSigletonTest" time="0.791" displayname="configurationSigletonTest()" uniqueid="[engine:junit-jupiter]/[class:hello.core.singleton.ConfigurationSigletonTest]/[method:configurationSigletonTest()]"/>
+    <testcase name="configurationDepp" classname="hello.core.singleton.ConfigurationSigletonTest" time="0.025" displayname="configurationDepp()" uniqueid="[engine:junit-jupiter]/[class:hello.core.singleton.ConfigurationSigletonTest]/[method:configurationDepp()]"/>
+  </testsuite>
+</testrun>

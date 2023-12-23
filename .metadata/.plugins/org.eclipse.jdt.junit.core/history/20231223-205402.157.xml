@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="SingletonTest" project="core" tests="3" started="3" failures="1" errors="0" ignored="0">
+  <testsuite name="hello.core.singleton.SingletonTest" time="0.851" displayname="SingletonTest" uniqueid="[engine:junit-jupiter]/[class:hello.core.singleton.SingletonTest]">
+    <testcase name="pureContainer" classname="hello.core.singleton.SingletonTest" time="0.107" displayname="스프링 없는 순수한 DI컨테이너" uniqueid="[engine:junit-jupiter]/[class:hello.core.singleton.SingletonTest]/[method:pureContainer()]"/>
+    <testcase name="singletonServiceTest" classname="hello.core.singleton.SingletonTest" time="0.002" displayname="싱글톤 패턴을 사용한 객체 사용" uniqueid="[engine:junit-jupiter]/[class:hello.core.singleton.SingletonTest]/[method:singletonServiceTest()]"/>
+    <testcase name="springContainer" classname="hello.core.singleton.SingletonTest" time="0.74" displayname="스프링 컨테이너와 싱글톤" uniqueid="[engine:junit-jupiter]/[class:hello.core.singleton.SingletonTest]/[method:springContainer()]">
+      <failure>java.lang.AssertionError: &#13;
+Expected not same: hello.core.member.MemberServiceImpl@35beb15e&#13;
+	at hello.core.singleton.SingletonTest.springContainer(SingletonTest.java:52)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)&#13;
+&#13;
+</failure>
+    </testcase>
+  </testsuite>
+</testrun>

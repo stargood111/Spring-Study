@@ -23,5 +23,8 @@ public class MemberServiceImpl implements MemberService{
 		// TODO Auto-generated method stub
 		return memberRepository.findById(MemberId);
 	}
-
+	//싱글톤 테스트
+	public MemberRepository getMemberRepository() {
+		return memberRepository;
+	}
 }

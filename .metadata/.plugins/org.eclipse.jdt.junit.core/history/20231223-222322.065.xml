@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="ConfigurationSigletonTest" project="core" tests="2" started="2" failures="1" errors="0" ignored="0">
+  <testsuite name="hello.core.singleton.ConfigurationSigletonTest" time="0.749" displayname="ConfigurationSigletonTest" uniqueid="[engine:junit-jupiter]/[class:hello.core.singleton.ConfigurationSigletonTest]">
+    <testcase name="configurationSigletonTest" classname="hello.core.singleton.ConfigurationSigletonTest" time="0.727" displayname="configurationSigletonTest()" uniqueid="[engine:junit-jupiter]/[class:hello.core.singleton.ConfigurationSigletonTest]/[method:configurationSigletonTest()]">
+      <failure>java.lang.AssertionError: &#13;
+Expecting actual:&#13;
+  hello.core.member.MemoryMemberRepository@2101b44a&#13;
+and:&#13;
+  hello.core.member.MemoryMemberRepository@2cc3ad05&#13;
+to refer to the same object&#13;
+	at hello.core.singleton.ConfigurationSigletonTest.configurationSigletonTest(ConfigurationSigletonTest.java:30)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="configurationDepp" classname="hello.core.singleton.ConfigurationSigletonTest" time="0.021" displayname="configurationDepp()" uniqueid="[engine:junit-jupiter]/[class:hello.core.singleton.ConfigurationSigletonTest]/[method:configurationDepp()]"/>
+  </testsuite>
+</testrun>
