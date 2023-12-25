@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="ComponentFilterAppConfigTest" project="core" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="hello.core.scan.filter.ComponentFilterAppConfigTest" time="0.912" displayname="ComponentFilterAppConfigTest" uniqueid="[engine:junit-jupiter]/[class:hello.core.scan.filter.ComponentFilterAppConfigTest]">
+    <testcase name="filterScan" classname="hello.core.scan.filter.ComponentFilterAppConfigTest" time="0.912" displayname="filterScan()" uniqueid="[engine:junit-jupiter]/[class:hello.core.scan.filter.ComponentFilterAppConfigTest]/[method:filterScan()]"/>
+  </testsuite>
+</testrun>
