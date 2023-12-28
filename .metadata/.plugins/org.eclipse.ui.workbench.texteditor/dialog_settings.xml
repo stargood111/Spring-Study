@@ -6,8 +6,10 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="Discount"/>
+		<item key="selection" value=""/>
 		<list key="findhistory">
+			<item value="JDBC"/>
+			<item value="jdbc"/>
 			<item value="disc"/>
 			<item value="discount1"/>
 			<item value="discount"/>

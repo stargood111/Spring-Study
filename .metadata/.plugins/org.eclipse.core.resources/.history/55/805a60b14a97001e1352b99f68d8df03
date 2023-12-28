@@ -1,8 +1,0 @@
-
-
-public class OrderApp {
-
-	public static void mian(String[] args) {
-		MemberService memberService = new MeberServiceImpl();
-	}
-}

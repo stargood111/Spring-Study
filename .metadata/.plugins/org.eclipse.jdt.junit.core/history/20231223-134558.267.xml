@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="XmalAppContext" project="core" tests="1" started="1" failures="0" errors="1" ignored="0">
+  <testsuite name="hello.core.xml.XmalAppContext" time="0.007" displayname="XmalAppContext" uniqueid="[engine:junit-jupiter]/[class:hello.core.xml.XmalAppContext]">
+    <testcase name="xmlAppContext" classname="hello.core.xml.XmalAppContext" time="0.007" displayname="xmlAppContext()" uniqueid="[engine:junit-jupiter]/[class:hello.core.xml.XmalAppContext]/[method:xmlAppContext()]">
+      <error>java.lang.Error: Unresolved compilation problem: 
+	The type groovy.lang.GroovyObject cannot be resolved. It is indirectly referenced from required type org.springframework.context.support.GenericGroovyApplicationContext
+&#13;
+	at hello.core.xml.XmalAppContext.&lt;init&gt;(XmalAppContext.java:1)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)&#13;
+	at java.base/java.util.Optional.orElseGet(Optional.java:364)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)&#13;
+&#13;
+</error>
+    </testcase>
+  </testsuite>
+</testrun>

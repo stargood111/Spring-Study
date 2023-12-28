@@ -1,0 +1,24 @@
+package hello.core.xml;
+
+import static org.assertj.core.api.Assertions.assertThat;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.GenericGroovyApplicationContext;
+import org.springframework.test.context.support.GenericGroovyXmlContextLoader;
+
+import hello.core.member.MemberService;
+
+public class xmltest {
+
+
+	@Test
+	void xmlAppContext() {
+		ApplicationContext ac = new GenericGroovyApplicationContext("appConfig.xml");
+		MemberService memberService = ac.getBean("memberService", MemberService.class);
+		assertThat(memberService).isInstanceOf(MemberService.class);
+	}
+}
+
+
+

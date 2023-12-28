@@ -1,7 +1,0 @@
-package hello.core.test;
-
-public class RateDiscountPolicyTest {
-
-	
-	RateDiscountPolicy discountPolicy = new RateDiscountPolicy()
-}

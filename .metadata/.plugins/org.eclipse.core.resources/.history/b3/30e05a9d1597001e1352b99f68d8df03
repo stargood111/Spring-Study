@@ -1,7 +1,0 @@
-package hello.core.member;
-
-public interface MemberService {
-
-	void sign()
-	void search(Member) 
-}

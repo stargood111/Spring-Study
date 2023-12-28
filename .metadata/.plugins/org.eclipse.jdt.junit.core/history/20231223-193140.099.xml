@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="ApplicationContextBasicFindTest" project="core" tests="4" started="4" failures="0" errors="0" ignored="0">
+  <testsuite name="hello.core.beanfind.ApplicationContextBasicFindTest" time="0.177" displayname="ApplicationContextBasicFindTest" uniqueid="[engine:junit-jupiter]/[class:hello.core.beanfind.ApplicationContextBasicFindTest]">
+    <testcase name="findBeanByName2" classname="hello.core.beanfind.ApplicationContextBasicFindTest" time="0.115" displayname="구체 타입으로 조회" uniqueid="[engine:junit-jupiter]/[class:hello.core.beanfind.ApplicationContextBasicFindTest]/[method:findBeanByName2()]"/>
+    <testcase name="findByNameX" classname="hello.core.beanfind.ApplicationContextBasicFindTest" time="0.006" displayname="빈 이름으로 조회X" uniqueid="[engine:junit-jupiter]/[class:hello.core.beanfind.ApplicationContextBasicFindTest]/[method:findByNameX()]"/>
+    <testcase name="findBeanByName" classname="hello.core.beanfind.ApplicationContextBasicFindTest" time="0.001" displayname="빈 이름으로 조회" uniqueid="[engine:junit-jupiter]/[class:hello.core.beanfind.ApplicationContextBasicFindTest]/[method:findBeanByName()]"/>
+    <testcase name="findBeanByType" classname="hello.core.beanfind.ApplicationContextBasicFindTest" time="0.002" displayname="이름 없이 타입으로만 조회" uniqueid="[engine:junit-jupiter]/[class:hello.core.beanfind.ApplicationContextBasicFindTest]/[method:findBeanByType()]"/>
+  </testsuite>
+</testrun>

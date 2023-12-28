@@ -1,0 +1,22 @@
+package hello.core.singleton;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.context.annotation.Bean;
+
+public class StatusfulServiceTest {
+
+	@Test
+	void statefulServiceSingleton() {
+		ApplicationContext ac = new AnnotationConfigApplicationContext(TestConfig.class);
+		StatefullService statefullService1= ac.getBean(StatefullService.class);
+		StatefullService statefullService2= ac.getBean(StatefullService.class);
+	}
+	static class TestConfig{
+		@Bean
+		public StatefullService statefullSerivce() {
+			return new StatefullService();
+		}
+	}
+}

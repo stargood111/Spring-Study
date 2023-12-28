@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="SingletonTest" project="core" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="hello.core.singleton.SingletonTest" time="0.017" displayname="SingletonTest" uniqueid="[engine:junit-jupiter]/[class:hello.core.singleton.SingletonTest]">
+    <testcase name="pureContainer" classname="hello.core.singleton.SingletonTest" time="0.017" displayname="스프링 없는 순수한 DI컨테이너" uniqueid="[engine:junit-jupiter]/[class:hello.core.singleton.SingletonTest]/[method:pureContainer()]"/>
+  </testsuite>
+</testrun>
