@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="hello.core (1)" project="core" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="hello.core.order.OrderServiceTest" time="0.1" displayname="OrderServiceTest" uniqueid="[engine:junit-jupiter]/[class:hello.core.order.OrderServiceTest]">
+    <testcase name="createOrder" classname="hello.core.order.OrderServiceTest" time="0.1" displayname="createOrder()" uniqueid="[engine:junit-jupiter]/[class:hello.core.order.OrderServiceTest]/[method:createOrder()]"/>
+  </testsuite>
+  <testsuite name="hello.core.member.MemberSerivceTest" time="0.002" displayname="MemberSerivceTest" uniqueid="[engine:junit-jupiter]/[class:hello.core.member.MemberSerivceTest]">
+    <testcase name="join" classname="hello.core.member.MemberSerivceTest" time="0.002" displayname="join()" uniqueid="[engine:junit-jupiter]/[class:hello.core.member.MemberSerivceTest]/[method:join()]"/>
+  </testsuite>
+</testrun>

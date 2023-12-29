@@ -18,7 +18,6 @@ import hello.core.member.MemberRepository;
 import hello.core.member.MemoryMemberRepository;
 
 public class ApplicationContextSameBeanFind {
-   
    AnnotationConfigApplicationContext ac = new AnnotationConfigApplicationContext(SameBeanConfig.class);
    
    @Test
@@ -61,3 +60,4 @@ public class ApplicationContextSameBeanFind {
       }
    }
 }
+
