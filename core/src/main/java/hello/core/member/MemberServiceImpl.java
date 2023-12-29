@@ -28,7 +28,8 @@ public class MemberServiceImpl implements MemberService{
 		return memberRepository.findById(MemberId);
 	}
 	//싱글톤 테스트
-	public MemberRepository getMemberRepository() {
-		return memberRepository;
+		public MemberRepository getMemberRepository() {
+			return memberRepository;
+		}
 	}
-}
+

@@ -7,7 +7,6 @@
     <fullyQualifiedTypeName name="hello.core.test.RateDiscountPolicyTest"/>
     <fullyQualifiedTypeName name="hello.core.member.Grade"/>
     <fullyQualifiedTypeName name="hello.core.member.Member"/>
-    <fullyQualifiedTypeName name="hello.core.member.MemberRepository"/>
     <fullyQualifiedTypeName name="hello.core.member.MemberServicelmpl"/>
     <fullyQualifiedTypeName name="hello.core.order.OrderService"/>
     <fullyQualifiedTypeName name="hello.core.member.MemoryMemberRepository"/>
@@ -31,4 +30,6 @@
     <fullyQualifiedTypeName name="hello.core.member.MemberService"/>
     <fullyQualifiedTypeName name="org.junit.jupiter.api.Assertions"/>
     <fullyQualifiedTypeName name="org.springframework.beans.factory.NoSuchBeanDefinitionException"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="hello.core.member.MemberRepository"/>
 </qualifiedTypeNameHistroy>

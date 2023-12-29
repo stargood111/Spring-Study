@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="BeanDefinitionTest" project="core" tests="1" started="1" failures="0" errors="0" ignored="0">
-  <testsuite name="hello.core.beandefinition.BeanDefinitionTest" time="0.03" displayname="BeanDefinitionTest" uniqueid="[engine:junit-jupiter]/[class:hello.core.beandefinition.BeanDefinitionTest]">
-    <testcase name="findApplicationBean" classname="hello.core.beandefinition.BeanDefinitionTest" time="0.03" displayname="빈 설정 메타정보 확인" uniqueid="[engine:junit-jupiter]/[class:hello.core.beandefinition.BeanDefinitionTest]/[method:findApplicationBean()]"/>
-  </testsuite>
-</testrun>

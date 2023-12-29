@@ -15,6 +15,13 @@ public class OrderServiceImpl implements OrderService{
 
 	private MemberRepository memberRepository = new MemoryMemberRepository();
 	private DiscountPolicy discountPolicy;  //DIP 원칙 지킴 (Null point error)
+
+	
+	@Autowired
+	public void setMemberRepositry(MemberRepository memberRepository) {
+		System.out.println(memberRepository);
+		this.memberRepository =memberRepository;
+	}
 	
 	/*	private final DiscountPolicy discountPolicy = new RateDiscountPolicy (); //인터페이스 - 추상, RateDiscountPolicy - 구현체 모두 의존
 		private final DiscountPolicy discountPolicy = new FixDiscountPolicy(); //인터페이스 - 추상, FixeDiscountPolicy구현체 모두 의존
@@ -37,6 +44,5 @@ public class OrderServiceImpl implements OrderService{
 	public MemberRepository getMemberRepository() {
 		return memberRepository;
 	}
-	
-
-}  
+}
+  

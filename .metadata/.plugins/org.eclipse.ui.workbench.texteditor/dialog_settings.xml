@@ -6,8 +6,12 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value=""/>
+		<item key="selection" value="memberRepository"/>
 		<list key="findhistory">
+			<item value="MemberRepository"/>
+			<item value="memberRepository"/>
+			<item value="Memory"/>
+			<item value="memory"/>
 			<item value="JDBC"/>
 			<item value="jdbc"/>
 			<item value="disc"/>

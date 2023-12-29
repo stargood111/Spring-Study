@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="StatusfulServiceTest" project="core" tests="1" started="1" failures="0" errors="0" ignored="0">
-  <testsuite name="hello.core.singleton.StatusfulServiceTest" time="0.539" displayname="StatusfulServiceTest" uniqueid="[engine:junit-jupiter]/[class:hello.core.singleton.StatusfulServiceTest]">
-    <testcase name="statefulServiceSingleton" classname="hello.core.singleton.StatusfulServiceTest" time="0.539" displayname="statefulServiceSingleton()" uniqueid="[engine:junit-jupiter]/[class:hello.core.singleton.StatusfulServiceTest]/[method:statefulServiceSingleton()]"/>
-  </testsuite>
-</testrun>
