@@ -6,8 +6,10 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="memberRepository"/>
+		<item key="selection" value=""/>
 		<list key="findhistory">
+			<item value="OrderServiceImpl\\\"/>
+			<item value="OrderServiceImpl\"/>
 			<item value="MemberRepository"/>
 			<item value="memberRepository"/>
 			<item value="Memory"/>

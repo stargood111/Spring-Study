@@ -1,5 +1,0 @@
-package hello.core.beandefinition;
-
-public @interface DisplayName {
-
-}

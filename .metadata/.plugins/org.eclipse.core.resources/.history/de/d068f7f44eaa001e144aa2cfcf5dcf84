@@ -1,0 +1,35 @@
+plugins {
+	id 'java'
+	id 'org.springframework.boot' version '3.2.0'
+	id 'io.spring.dependency-management' version '1.1.4'
+}
+
+group = 'hello'
+version = '0.0.1-SNAPSHOT'
+
+java {
+	sourceCompatibility = '17'
+}
+//Lombok 설정 추가 시작
+configurations {
+	compileOnly{
+		extendsFrom annotationProcessor
+		}
+	}
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	implementation 'org.springframework.boot:spring-boot-starter'
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'\
+ 	implementation 'org.springframework.boot:spring-boot-starter-groovy-templates'
+ 	testImplementation 'junit:junit:4.12'
+ 	
+	
+	
+}
+
+tasks.named('test') {
+	useJUnitPlatform()
+}

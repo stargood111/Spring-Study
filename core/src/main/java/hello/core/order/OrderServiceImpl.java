@@ -9,13 +9,15 @@ import hello.core.discount.DiscountPolicy;
 import hello.core.member.Member;
 import hello.core.member.MemberRepository;
 import hello.core.member.MemoryMemberRepository;
+import lombok.RequiredArgsConstructor;
 
 @Component
+//@RequiredArgsConstructor //생성자주입 (불변,필수) - OrderServiceImpl 생성자 생략해주는 어노테이션 @Autowired 생략
 public class OrderServiceImpl implements OrderService{
 
-
-	private MemberRepository memberRepository;
-	private DiscountPolicy discountPolicy;
+	private final MemberRepository memberRepository;
+	private final DiscountPolicy discountPolicy;
+	
 //	@Autowired
 //	private  MemberRepository memberRepository; //핃드주입 (권장사용 X, 순수 java에서 TEST 어려움), 스프링 설정을 목적으로 하는 @Configuration 같은 곳에서만 특별한 용도로 사용
 //	@Autowired
@@ -34,18 +36,16 @@ public class OrderServiceImpl implements OrderService{
 //		this.memberRepository = memberRepository;
 //	}
 //	
-	@Autowired //생성자주입 (불변,필수)
-	public OrderServiceImpl() {
-		System.out.println(memberRepository);
-		System.out.println(discountPolicy);
+	@Autowired//생성자주입 (불변,필수)
+	public OrderServiceImpl(MemberRepository memberRepository,DiscountPolicy discountPolicy) {
 		this.memberRepository = memberRepository;
 		this.discountPolicy = discountPolicy;
 	}
-	@Autowired //일반메서드주입
-	public void init(MemberRepository memberRepository, DiscountPolicy discountPolicy) {
-		this.memberRepository = memberRepository;
-		this.discountPolicy = discountPolicy;
-	}
+//	@Autowired //일반메서드주입
+//	public void init(MemberRepository memberRepository, DiscountPolicy discountPolicy) {
+//		this.memberRepository = memberRepository;
+//		this.discountPolicy = discountPolicy;
+//	}
 	@Override
 	public Order createOrder(Long memberId, String itemName, int itemPrice) {
 		Member member = memberRepository.findById(memberId);

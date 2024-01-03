@@ -1,0 +1,10 @@
+package hello.core.discount;
+
+import org.springframework.stereotype.Component;
+
+import hello.core.member.Member;
+@Component
+public interface DiscountPolicy {
+
+	int discount(Member member, int price);
+}

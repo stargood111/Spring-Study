@@ -1,6 +1,0 @@
-package hello.core.scan.filter;
-
-@Myin1
-public class BeanB {
-
-}

@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="AutowiredTest" project="core" tests="1" started="1" failures="0" errors="0" ignored="0">
-  <testsuite name="hello.core.autowired.AutowiredTest" time="0.628" displayname="AutowiredTest" uniqueid="[engine:junit-jupiter]/[class:hello.core.autowired.AutowiredTest]">
-    <testcase name="AutowiredOption" classname="hello.core.autowired.AutowiredTest" time="0.628" displayname="AutowiredOption()" uniqueid="[engine:junit-jupiter]/[class:hello.core.autowired.AutowiredTest]/[method:AutowiredOption()]"/>
-  </testsuite>
-</testrun>

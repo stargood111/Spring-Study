@@ -1,9 +1,0 @@
-package hello.core.beandefinition;
-
-import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-
-public class BeanDefinitionTest {
-
-	
-	AnnotationConfigApplicationContext ac =  AnnotationConfigApplicationContext(AppConfig.class);
-}

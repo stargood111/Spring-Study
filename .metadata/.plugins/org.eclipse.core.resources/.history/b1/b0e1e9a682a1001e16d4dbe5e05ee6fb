@@ -1,9 +1,0 @@
-package hello.core.singleton;
-
-import org.junit.jupiter.api.DisplayName;
-
-public class SingletonTest {
-
-	@Test
-	@DisplayName("스프링 없는 순수한 DI컨테이너");
-}

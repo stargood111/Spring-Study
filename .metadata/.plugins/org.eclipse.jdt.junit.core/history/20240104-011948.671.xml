@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="java" project="core" tests="3" started="3" failures="0" errors="1" ignored="0">
+  <testsuite name="hello.core.order.OrderServiceImplTest" time="0.041" displayname="OrderServiceImplTest" uniqueid="[engine:junit-jupiter]/[class:hello.core.order.OrderServiceImplTest]">
+    <testcase name="createOrder" classname="hello.core.order.OrderServiceImplTest" time="0.04" displayname="createOrder()" uniqueid="[engine:junit-jupiter]/[class:hello.core.order.OrderServiceImplTest]/[method:createOrder()]"/>
+  </testsuite>
+  <testsuite name="hello.core.order.OrderServiceTest" time="0.024" displayname="OrderServiceTest" uniqueid="[engine:junit-jupiter]/[class:hello.core.order.OrderServiceTest]">
+    <testcase name="createOrder" classname="hello.core.order.OrderServiceTest" time="0.024" displayname="createOrder()" uniqueid="[engine:junit-jupiter]/[class:hello.core.order.OrderServiceTest]/[method:createOrder()]">
+      <error>java.lang.NullPointerException: Cannot invoke "hello.core.order.OrderService.createOrder(java.lang.Long, String, int)" because "this.orderService" is null&#13;
+	at hello.core.order.OrderServiceTest.createOrder(OrderServiceTest.java:34)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)&#13;
+&#13;
+</error>
+    </testcase>
+  </testsuite>
+  <testsuite name="hello.core.member.MemberSerivceTest" time="0.001" displayname="MemberSerivceTest" uniqueid="[engine:junit-jupiter]/[class:hello.core.member.MemberSerivceTest]">
+    <testcase name="join" classname="hello.core.member.MemberSerivceTest" time="0.001" displayname="join()" uniqueid="[engine:junit-jupiter]/[class:hello.core.member.MemberSerivceTest]/[method:join()]"/>
+  </testsuite>
+</testrun>

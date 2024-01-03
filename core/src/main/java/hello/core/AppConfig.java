@@ -37,8 +37,8 @@ public class AppConfig {
 	public OrderService orderService() {
 		System.out.println("call Appconfig.orderService");
 	
-		return null;
-//		return new OrderServiceImpl(memberRepository(), discountpolicy());
+		//return null;
+		return new OrderServiceImpl(memberRepository(), discountpolicy());
 
 	}
 //	public DiscountPolicy discountpolicy() {
