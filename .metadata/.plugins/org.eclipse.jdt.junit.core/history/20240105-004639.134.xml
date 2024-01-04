@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="AllBeanTest" project="core" tests="1" started="1" failures="1" errors="0" ignored="0">
+  <testsuite name="hello.core.autowired.AllBeanTest" time="1.038" displayname="AllBeanTest" uniqueid="[engine:junit-jupiter]/[class:hello.core.autowired.AllBeanTest]">
+    <testcase name="findAllBean" classname="hello.core.autowired.AllBeanTest" time="1.038" displayname="findAllBean()" uniqueid="[engine:junit-jupiter]/[class:hello.core.autowired.AllBeanTest]/[method:findAllBean()]">
+      <failure>
+        <expected>2000</expected>
+        <actual>1000</actual>
+        org.opentest4j.AssertionFailedError: &#13;
+expected: 2000&#13;
+ but was: 1000&#13;
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)&#13;
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)&#13;
+	at hello.core.autowired.AllBeanTest.findAllBean(AllBeanTest.java:33)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)&#13;
+&#13;
+
+      </failure>
+    </testcase>
+  </testsuite>
+</testrun>

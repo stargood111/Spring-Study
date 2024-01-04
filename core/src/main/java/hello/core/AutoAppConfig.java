@@ -18,12 +18,12 @@ import hello.core.order.OrderServiceImpl;
 		excludeFilters = @ComponentScan.Filter(type = FilterType.ANNOTATION, classes = Configuration.class)
 		)
 public class AutoAppConfig {
-	
+	/*
 	@Autowired
 	MemberRepository memberRepository;
 	@Autowired
 	DiscountPolicy discountPolicy;
-	
+	*/
 //	@Bean
 //	OrderService orderService() {
 //		return new OrderServiceImpl(memberRepository, discountPolicy);

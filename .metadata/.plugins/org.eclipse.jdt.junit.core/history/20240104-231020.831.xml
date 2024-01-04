@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="hello.core (1)" project="core" tests="3" started="3" failures="0" errors="0" ignored="0">
+  <testsuite name="hello.core.order.OrderServiceImplTest" time="0.04" displayname="OrderServiceImplTest" uniqueid="[engine:junit-jupiter]/[class:hello.core.order.OrderServiceImplTest]">
+    <testcase name="createOrder" classname="hello.core.order.OrderServiceImplTest" time="0.04" displayname="createOrder()" uniqueid="[engine:junit-jupiter]/[class:hello.core.order.OrderServiceImplTest]/[method:createOrder()]"/>
+  </testsuite>
+  <testsuite name="hello.core.order.OrderServiceTest" time="0.009" displayname="OrderServiceTest" uniqueid="[engine:junit-jupiter]/[class:hello.core.order.OrderServiceTest]">
+    <testcase name="createOrder" classname="hello.core.order.OrderServiceTest" time="0.009" displayname="createOrder()" uniqueid="[engine:junit-jupiter]/[class:hello.core.order.OrderServiceTest]/[method:createOrder()]"/>
+  </testsuite>
+  <testsuite name="hello.core.member.MemberSerivceTest" time="0.002" displayname="MemberSerivceTest" uniqueid="[engine:junit-jupiter]/[class:hello.core.member.MemberSerivceTest]">
+    <testcase name="join" classname="hello.core.member.MemberSerivceTest" time="0.002" displayname="join()" uniqueid="[engine:junit-jupiter]/[class:hello.core.member.MemberSerivceTest]/[method:join()]"/>
+  </testsuite>
+</testrun>

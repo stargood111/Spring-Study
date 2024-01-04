@@ -1,15 +1,15 @@
 package hello.core.order;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
+import hello.core.annotation.MainDiscountPolicy;
 import hello.core.discount.DiscountPolicy;
 //import hello.core.discount.FixDiscountPolicy;
 //import hello.core.discount.RateDiscountPolicy;
 import hello.core.member.Member;
 import hello.core.member.MemberRepository;
-import hello.core.member.MemoryMemberRepository;
-import lombok.RequiredArgsConstructor;
 
 @Component
 //@RequiredArgsConstructor //생성자주입 (불변,필수) - OrderServiceImpl 생성자 생략해주는 어노테이션 @Autowired 생략
@@ -17,7 +17,7 @@ public class OrderServiceImpl implements OrderService{
 
 	private final MemberRepository memberRepository;
 	private final DiscountPolicy discountPolicy;
-	
+
 //	@Autowired
 //	private  MemberRepository memberRepository; //핃드주입 (권장사용 X, 순수 java에서 TEST 어려움), 스프링 설정을 목적으로 하는 @Configuration 같은 곳에서만 특별한 용도로 사용
 //	@Autowired
@@ -36,8 +36,8 @@ public class OrderServiceImpl implements OrderService{
 //		this.memberRepository = memberRepository;
 //	}
 //	
-	@Autowired//생성자주입 (불변,필수)
-	public OrderServiceImpl(MemberRepository memberRepository,DiscountPolicy discountPolicy) {
+	@Autowired //생성자주입 (불변,필수)
+	public OrderServiceImpl(MemberRepository memberRepository,@MainDiscountPolicy DiscountPolicy discountPolicy) {
 		this.memberRepository = memberRepository;
 		this.discountPolicy = discountPolicy;
 	}

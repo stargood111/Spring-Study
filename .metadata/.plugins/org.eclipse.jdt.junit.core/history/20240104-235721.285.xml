@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="AllBeanTest" project="core" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="hello.core.autowired.AllBeanTest" time="0.948" displayname="AllBeanTest" uniqueid="[engine:junit-jupiter]/[class:hello.core.autowired.AllBeanTest]">
+    <testcase name="findAllBean" classname="hello.core.autowired.AllBeanTest" time="0.947" displayname="findAllBean()" uniqueid="[engine:junit-jupiter]/[class:hello.core.autowired.AllBeanTest]/[method:findAllBean()]"/>
+  </testsuite>
+</testrun>
