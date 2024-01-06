@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.util.Map"/>
     <fullyQualifiedTypeName name="java.util.HashMap"/>
     <fullyQualifiedTypeName name="hello.core.member.MemberServicelml"/>
     <fullyQualifiedTypeName name="java.lang.reflect.Member"/>
@@ -8,8 +7,6 @@
     <fullyQualifiedTypeName name="hello.core.member.MemberServicelmpl"/>
     <fullyQualifiedTypeName name="hello.core.order.OrderService"/>
     <fullyQualifiedTypeName name="org.junit.jupiter.api.BeforeEach"/>
-    <fullyQualifiedTypeName name="hello.core.discount.DiscountPolicy"/>
-    <fullyQualifiedTypeName name="hello.core.discount.RateDiscountPolicy"/>
     <fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
     <fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
     <fullyQualifiedTypeName name="org.springframework.context.support.AbstractApplicationContext"/>
@@ -21,18 +18,29 @@
     <fullyQualifiedTypeName name="hello.core.member.MemberService"/>
     <fullyQualifiedTypeName name="org.junit.jupiter.api.Assertions"/>
     <fullyQualifiedTypeName name="org.springframework.beans.factory.NoSuchBeanDefinitionException"/>
-    <fullyQualifiedTypeName name="org.springframework.context.annotation.AnnotationConfigApplicationContext"/>
     <fullyQualifiedTypeName name="hello.core.autowired.AutowiredTest.TestBean"/>
-    <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
-    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
     <fullyQualifiedTypeName name="hello.core.member.MemberRepository"/>
     <fullyQualifiedTypeName name="io.micrometer.common.lang.Nullable"/>
     <fullyQualifiedTypeName name="java.util.Optional"/>
-    <fullyQualifiedTypeName name="org.junit.jupiter.api.Test"/>
     <fullyQualifiedTypeName name="hello.core.order.OrderServiceImpl"/>
     <fullyQualifiedTypeName name="hello.core.discount.FixDiscountPolicy"/>
     <fullyQualifiedTypeName name="hello.core.member.MemoryMemberRepository"/>
+    <fullyQualifiedTypeName name="lombok.RequiredArgsConstructor"/>
+    <fullyQualifiedTypeName name="hello.core.discount.RateDiscountPolicy"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Primary"/>
+    <fullyQualifiedTypeName name="java.lang.annotation.Documented"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Qualifier"/>
+    <fullyQualifiedTypeName name="hello.core.annotation.MainDiscountPolicy"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.Test"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.AnnotationConfigApplicationContext"/>
+    <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
+    <fullyQualifiedTypeName name="hello.core.AutoAppConfig"/>
     <fullyQualifiedTypeName name="hello.core.member.Grade"/>
     <fullyQualifiedTypeName name="hello.core.member.Member"/>
     <fullyQualifiedTypeName name="org.assertj.core.api.Assertions"/>
+    <fullyQualifiedTypeName name="hello.core.autowired.AllBeanTest.DiscountService"/>
+    <fullyQualifiedTypeName name="hello.core.discount.DiscountPolicy"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
 </qualifiedTypeNameHistroy>
